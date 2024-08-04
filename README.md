@@ -23,6 +23,7 @@ Thus, this picture consists of various interconnect devices, external chips, and
 <br>
 Our main objective is to design a Processor/SoC, so the picture below depicts the design of a QFN-48 Package with the chip in the middle, connected by bond wires or interconnect wires.
 <br>
+
 ![day1 2](https://github.com/user-attachments/assets/c21a2f5b-c6a8-423e-8de6-baa69abe142a)
 
 <br>
