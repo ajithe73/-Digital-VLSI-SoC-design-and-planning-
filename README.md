@@ -68,7 +68,56 @@ Deep diving into the flow, we observe that there is one more process after the a
 <br>
 <hr>
 
-#2-soc-design-and-openlane">SOC Design and OpenLANE
+#2 SOC Design and OpenLANE
+standard RTL to GDSII Flow
+
+![day20](https://github.com/user-attachments/assets/d3fa06e5-7ea7-47d9-89f2-589f98b6d150)
+
+
+Synthesis: It turns RTL into a circuit by assembling components from the standard cell library (SCL).
+
+![2 1](https://github.com/user-attachments/assets/aa4a34a2-c806-4459-8ca6-e322e4efe34b)
+
+Floor and Power Planning: It is separated into the following two categories:
+ 1. Chip-Floor Planning: 
+ Assign I/O Pad locations and divide the chip die across the various system components.
+ 2. Macro-Floor Planning: 
+ Dimensions, pin locations, rows definition.
+
+![day2 2](https://github.com/user-attachments/assets/f226bd44-e75b-4d8c-aae7-76cbf2f47d05)
+
+![day2 3](https://github.com/user-attachments/assets/85ca0046-eeea-44c6-8abb-97cfa52bb36e)
+
+power planing
+![day2 4](https://github.com/user-attachments/assets/9dc6b897-a8bf-4e4c-b4c1-de065cb8c876)
+
+placement
+
+![day25](https://github.com/user-attachments/assets/c6d35d31-557e-4371-8d68-21265ca624df)
+
+![day2 6](https://github.com/user-attachments/assets/2784e794-248c-47ba-b418-5b0866e48e77)
+
+![day2 7](https://github.com/user-attachments/assets/555fdeae-4aba-4168-bf61-8c387c255734)
+
+![day2 8](https://github.com/user-attachments/assets/1d98d88e-e14b-4393-8c32-dcb66f3ea10a)
+
+![day2 9](https://github.com/user-attachments/assets/823a7ff8-8214-43f5-b6c6-bb8c3759b7d8)
+
+# 3 Get familiar to open-source EDA tools
+enter into openlane flow
+
+
+
+
+
+
+
+
+
+
+
+
+
 #3-get-familiar-to-open-source-eda-tools.
 
 
